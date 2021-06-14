@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #232323;
+  --secondary-color: #f2f2f2;
+  --primary-font: "Roboto", sans-serif;
+}
+
+header {
+  height: 100vh;
+  background-color: var(--primary-color);
+}
+
+.nav__item {
+  /* margin-left: 40%; */
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  max-width: 40%;
+  /* align-items: center; */
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li > a {
+  margin-top: 1rem !important;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 1.4vw;
+  font-family: var(--primary-font);
+}
